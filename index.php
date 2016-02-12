@@ -22,7 +22,7 @@
 </div>
     <body>
 		<?php 
-			echo("adasdsa");	
+			echo("ayedees!");	
 		?>
 		<div class="loader">
 			<div class="cssload-preloader cssload-loading centered">
