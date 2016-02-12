@@ -1,0 +1,87 @@
+.upFooterBackGround{
+    width: 100%;
+    background-color: #16293A;   
+    height: 90px;
+    overflow: hidden;
+}
+
+.upFooter{
+    max-width: 1024px;   
+    margin: 0 auto;
+}
+
+.downFooterBackGround{
+    width: 100%;
+    background-color: #132333;  
+    line-height: 65px;
+    overflow: hidden;
+}
+
+.downFooter{
+    max-width: 1024px;   
+    margin: 0 auto;
+	color: white;
+	text-align: right;
+}
+
+.downFooter span{
+    margin-right: 10px;
+}
+
+.upFooter ul{
+    list-style-type: none;
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin-top: 37.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.upFooter ul li{
+	display: table-cell;
+	text-align: left;
+}
+
+.upFooter ul li:nth-last-child(1){
+	text-align: right;
+}
+
+.upFooter ul li a{
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+@media (max-width: 767px) {
+
+    .upFooterBackGround{
+        height: auto;
+    }
+    .upFooter ul{
+        display: block;
+        margin-top: 0px;
+    }
+    .upFooter ul li{
+        display: block;
+        text-align: center;  
+        margin-top: 5px;
+    }
+    .downFooter{
+        text-align: center;
+    }
+    .upFooter ul li:nth-last-child(1){
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .downFooterBackGround{
+        min-height: 25px;
+        line-height: normal;
+    }
+    .downFooter{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

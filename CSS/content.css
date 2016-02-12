@@ -1,0 +1,430 @@
+.contentBackground{
+    background: none;
+    width: 100%;
+}
+
+.content{
+    max-width: 1024px;   
+    margin: 0 auto;  
+	margin-top: -85px;
+}
+
+.searchUploadComponent ul{
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+    color: white;
+}
+
+
+
+.searchUploadComponent ul li{
+    display: inline-block;
+    background: #20303F;
+    padding: 7px 20px 7px 20px; 
+    margin-right: -4px;
+}
+
+
+.searchUploadComponent ul li:hover{
+    background: #1E5E99;
+    cursor: pointer;
+}
+
+.searchUploadComponent ul li:nth-child(1){
+	border-top-left-radius: 4px;
+}
+
+.searchUploadComponent ul li:nth-last-child(1){
+	border-top-right-radius: 4px;
+}
+
+.active{
+	background: #1E5E99!important;
+}
+
+
+.searchUpload{
+    background: #1E5E99;
+	width: 100%;
+	height: 100px;
+	border-radius: 4px;
+	border-top-left-radius: 0px;
+	box-shadow: 1px 1px 13px -4px black, -1px 1px 13px -4px black;
+}
+
+.search {
+    background: #00417C;
+	float: left;
+	height: 62px;
+	width: 75%;
+	margin-top: 19px;
+	padding: 8.5px;
+	margin-left: 19px;
+	border-radius: 4px;
+}
+
+.search input{
+	width: 75%;
+	height: 45px;
+	border-radius: 4px;
+	border: none;
+	font-size: 25px;
+}
+
+.search .myButton{
+	height: 45px;
+	border-radius: 4px;
+	margin-left: 8.5px;
+	border: none;
+	float: right;
+	padding: 0;
+	width: 120px;
+	background: #DD2429;
+}
+
+.myButton  span{
+	float: left;
+	font-size: 20px;
+	padding: 0;
+	margin-left: 8.5px;
+	margin-right: 8.5px;
+	margin-top: 12.5px;
+	opacity: 0.5;
+}
+
+.buttonLine{
+	width: 1px;
+	background: black;
+	height: 45px;
+	float: left;
+}
+.buttonText{
+	float: left;
+	font-size: 17px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	line-height: 45px;
+	color: white;
+}
+
+.buttonTextSearch{
+	font-size: 17px;
+	line-height: 45px;
+	color: white;
+}
+
+.searchTextBox{
+	border-radius: 4px!important;
+}
+
+.upload{
+    background: #00417C;
+	float: right;
+	height: 62px;
+	padding: 8.5px;
+	margin-top: 19px;
+	margin-right: 19px;
+	border-radius: 4px;
+}
+
+.upload button{
+	height: 45px;
+	border: none;
+	border-radius: 4px;
+	padding: 0;
+	background: #DD2429;
+}
+
+/*style for list of data*/
+.list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+    clear: both;
+	margin-left: 10px;
+}
+
+.list > li{
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.list > li img{
+	float: left;
+	width: 180px;
+	height: 100px;
+    border-radius: none;
+}
+
+.item{
+	list-style-type: none;
+	width: 160px;
+	padding: 0;
+}
+
+.item li:nth-child(1){
+	overflow: hidden;
+}
+
+.item li:nth-child(2){
+    height: 70px;
+	border: 1px solid rgb(201, 201,201);
+    background: white;
+    border-bottom: 1px solid rgb(201, 201,201);
+	text-align: center;
+	padding-top: 6px;
+	word-wrap: break-word;
+}
+
+.item li:nth-child(3){
+    height: 35px;
+    background: rgb(201, 201,201);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.item li:nth-child(2) p{
+	text-decoration: none;
+	color: black;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+.like{
+	float: left;
+    padding: 2px 11px 2px 11px;
+    border-radius: 4px;
+    background: #16A7D8;
+    font-size: 12px;
+    color: white;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.visited{
+	float: right;
+    padding: 2px 11px 2px 11px;
+    font-size: 12px;
+    color: grey;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.visited span{
+    margin-right: 3px;
+}
+
+.img-rounded{
+    border-radius: 4px;   
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.filter{
+    margin-top: 25px;
+}
+
+.filter > ul{
+    list-style-type: none;
+    float: left;
+    padding: 0;
+}
+
+.filter > ul li{
+    display: inline-block;
+}
+
+.filter > ul li button{
+    width: 35px;
+    height: 35px;
+    background: rgb(237, 237,237);
+    border: 1px solid rgb(201, 201,201);
+    border-radius: 4px;
+}
+
+.sortFilter{
+    float: right;
+}
+
+.dropdown-menu{
+   min-width: 0; 
+   margin: 0;
+}
+
+.dropdown button{
+    width: 150px;
+    background: rgb(237, 237,237)!important;
+    color: black!important;
+    border: 1px solid rgb(201, 201,201)!important;
+}
+
+.dropdown-menu>li>a{
+    padding: 3px 35px;
+}
+
+.dropdown-toggle > span:nth-child(1){
+    float: left;
+}
+
+.dropdown-toggle > span:nth-child(2){
+    float: right;
+    margin-top: 8px;
+}
+.contentLine{
+    width: 100%;
+    height: 1px;
+    background: rgb(219, 219,219);
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.buttonUpScroll{
+	float: right;
+	margin-bottom: 25px;
+}
+
+.buttonUpScroll button{
+	width: 35px;
+    height: 35px;
+    background: rgb(237, 237,237);
+    border: 1px solid rgb(201, 201,201);
+    border-radius: 4px;
+}
+
+.filter > .buttonUpScroll > span{
+	font-weight: bold;
+	line-height: 35px;
+	margin-right: 4px;
+}
+
+
+@media (max-width: 1199px) {
+	.list{
+		margin-left: 80px;
+	}
+}
+
+@media (max-width: 990px) {
+	.list{
+		margin-left: 0px;
+	}
+    .search{
+		width: 70%;
+	}
+}
+
+@media (max-width: 900px) {
+	.search{
+		width: 65%;
+	}
+}
+
+@media (max-width: 767px) {
+	.item{
+		width: 40%;
+		min-width: 180px;
+		margin: 0 auto;
+	}
+	.list > li img{
+		width: 100%;
+		min-width: 180px;
+	}	
+     .upHeaderBackground{
+		height: auto;
+	}
+    .upHeader{
+		text-align: center;
+	}
+    .menu ul li{
+        display: block;
+    }
+    .navbar-header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .searchUpload{
+        height: 163px;
+    }
+    .search{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .upload{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .buttonText{
+        float: none;
+    }
+    .myButton{
+        width: 100%;
+    }  
+    .filter{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+	.menu ul li{
+		display: block;
+	}
+	.headerBackground{
+		display: none;
+	}
+	.content{
+		margin-top: 0px;
+	}
+	.searchUploadComponent ul li{
+		width: 14.2%;
+	}
+    .searchUploadComponent ul{
+        display: none;
+    }
+    .searchUpload{
+        border-top-left-radius: 4px;
+    }
+    .filter{
+        text-align: center;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .filter > ul{
+        float: none;
+    }
+	.sortFilter{
+        float: none;
+		width: 150px;
+		margin: 0 auto;
+    }
+    .buttonUpScroll{
+        display: none;
+    }
+    .filter > ul li button{
+        width:30px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
