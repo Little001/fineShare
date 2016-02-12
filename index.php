@@ -21,6 +21,9 @@
     </head>
 </div>
     <body>
+		<?php 
+			echo("adasdsa");	
+		?>
 		<div class="loader">
 			<div class="cssload-preloader cssload-loading centered">
 				<span class="cssload-slice"></span>
