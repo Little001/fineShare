@@ -29,4 +29,10 @@ function stopLoading(){
   $('.loader').css('display', 'none');
 }
 
+var testGitu = function(input){
+    for(var i = 0; i < 10; i++){
+        console.log(input);   
+    }
+}
+
 
