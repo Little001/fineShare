@@ -78,13 +78,14 @@
         <div class="content">
             <div class="searchUploadComponent">
                 <ul>
-                    <li id="All" class="active">Vše</li>
-                    <li id="Video">Video</li>
-                    <li id="Audio">Audio</li>
-                    <li id="Picture">Obrázky</li>
-                    <li id="Document">Dokumenty</li>
-                    <li id="Image">Image</li>
-                    <li id="Zip">Zabalené</li>
+                    <li id="All" class="active"><span class="glyphicon glyphicon-repeat"></span>Vše</li>
+                    <li id="Video"><span class="glyphicon glyphicon-film"></span>Video</li>
+                    <li id="Audio"><span class="glyphicon glyphicon-music"></span>Audio</li>
+                    <li id="Picture"><span class="glyphicon glyphicon-picture"></span>Obrázky</li>
+                    <li id="Document"><span class="glyphicon glyphicon-file"></span>Dokumenty</li>
+					<li id="Image"><span class="glyphicon glyphicon-cd"></span>Image</li>
+                    <li id="Zip"><span class="glyphicon glyphicon-book"></span>Zabalené</li>
+                    
                 </ul>
                 <div class="searchUpload">
 					<div class="search"> 	

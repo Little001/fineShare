@@ -24,6 +24,9 @@
     padding: 7px 20px 7px 20px; 
     margin-right: -4px;
 }
+.searchUploadComponent ul li span{
+	margin-right: 4px;
+}
 
 
 .searchUploadComponent ul li:hover{
@@ -375,6 +378,9 @@
     .filter{
         padding-left: 10px;
         padding-right: 10px;
+    }
+	.searchUploadComponent ul{
+        display: none;
     }
 }
 
