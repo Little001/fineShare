@@ -21,9 +21,6 @@
     </head>
 </div>
     <body>
-		<?php 
-			echo("ayedees!");	
-		?>
 		<div class="loader">
 			<div class="cssload-preloader cssload-loading centered">
 				<span class="cssload-slice"></span>
@@ -36,6 +33,7 @@
 		</div>
         <header>
             <div class="upHeaderBackground">
+				
                 <div class="upHeader">
                     <nav class="navbar navbar-inverse mainMenu">
 						<div class="container-fluid">
@@ -46,7 +44,7 @@
 									<span class="icon-bar"></span>                        
 								</button>
 								<span class="navbar-brand">
-									<div class="logo">Fineshare.cz</div>
+									<div class="logo"><img src="Images/logo.png"></div>
 								</span>
 							</div>
 							<div class="collapse navbar-collapse menu" id="myNavbar">
@@ -225,7 +223,7 @@
 						<li><a>Podmínky užívání</a></li>
 						<li><a>Nahlásit soubor</a></li>
 						<li><a>Kontakt</a></li>
-						<li><a>Logo</a></li>
+						<li><a><img src="Images/logo.png"></a></li>
 					</ul>
 				</div>
 			</div>

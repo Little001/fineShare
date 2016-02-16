@@ -33,7 +33,7 @@
 	display: table;
 	width: 100%;
 	padding: 0;
-	margin-top: 37.5px;
+	margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -53,6 +53,12 @@
 	color: white;
 }
 
+@media (max-width: 900px) {
+    .upFooter ul li a img{
+        width: 170px;
+    }
+}
+
 @media (max-width: 767px) {
 
     .upFooterBackGround{
@@ -67,6 +73,7 @@
         text-align: center;  
         margin-top: 5px;
     }
+    
     .downFooter{
         text-align: center;
     }

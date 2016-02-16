@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	$(".searchUploadComponent ul li").click(function() {
         /*Grafické upravy*/
         $(".searchUploadComponent ul li").each(function() {
-            console.log($(this).removeClass("active"));
+            $(this).removeClass("active");
         });
         $(this).addClass("active");
 	});
@@ -28,11 +28,3 @@ function startLoading(){
 function stopLoading(){
   $('.loader').css('display', 'none');
 }
-
-var testGitu = function(input){
-    for(var i = 0; i < 10; i++){
-        console.log(input);   
-    }
-}
-
-
