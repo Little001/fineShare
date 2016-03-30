@@ -4,6 +4,45 @@ body{
 	background: white;
 }
 
+h1{
+    margin-bottom: 30px;
+}
+
+h4{
+    color: #3C3C3C;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.clientMessage{
+    position: fixed;
+    width: 800px;
+    height: 70px;
+    z-index: 99;
+    top: -70px;
+    text-align: center;
+    left: 50%;
+    margin-left: -400px;
+    color: black;
+    font-size: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 5px;
+}
+
+.succesMsg{
+    background: green;
+}
+
+.errorMsg{
+   background: #B80B36; 
+}
+
 .loader{
 	position:fixed;
     padding:0;
@@ -13,8 +52,7 @@ body{
     width: 100%;
     height: 100%;
     background:rgba(255,255,255,0.5);
-	z-index: 999;
-	display: none;
+	z-index: 99;
 }
 
 .centered {
@@ -30,6 +68,8 @@ body{
     background-color: #16293A;   
     height: 65px;
     overflow: hidden;
+    text-align: center;
+    
 }
 
 .upHeader{
@@ -59,17 +99,26 @@ body{
 .menu ul li:hover{
     background: #054988;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .menu ul li a{
     padding: 5px 25px 5px 25px; 
     color: white!important;
 }
+.menu ul li input{
+    padding: 5px 25px 5px 25px; 
+    color: white!important;
+    border: none;
+    background: none;
+}
 
 
 .headerBackground{
     background: #1C4064;
     height: 250px;
+    position: relative;
+    z-index: -10;
 }
 
 .mainMenu{
@@ -84,14 +133,155 @@ body{
     padding-left: 0px;
 }
 
+.login{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: -450px;
+    text-align: center;
+    color: #A3A3A3;
+}
+.login form{
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 20px;
+    width: 90%;  
+}
+
+.login form input{
+    border: none;
+    color: #616161;
+    width: 50%;
+    height: 45px;
+    width: 315px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #E2E2E2;
+    padding-left: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.login form input:focus{
+    outline: none;
+}
+
+
+.login form input[type="submit"]{
+    width: 120px;
+    float: left;
+    border-radius: 4px;
+    background: #16293A;
+    color: white;
+}
+
+.login form a{
+    float: right;
+    line-height: 45px;
+    color: #969696;
+}
+
+.icon-login{
+    border: none;
+    color: white;
+    clear: both;
+    float: left;
+    background: #054988;
+    line-height: 45px;
+    width: 45px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.arrow-div .reg{
+    background: #054988;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    line-height: 45px;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.login_line{
+    color: gray;
+    font-size: 23px;
+}
+.login_main{
+    display: inline-block;
+    float: left;
+}
+
+.login_close{
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.login_name{
+    color: green;
+    font-weight: bold;
+}
+.login_name span{
+    margin-right: 4px;
+}
+
+/*login window*/
+.arrow-div {
+	position: relative;
+    background: white;
+    margin: 0 auto;
+    left: 205px;
+    width: 400px;
+    border-radius: 4px;
+}
+.arrow-div:after, .arrow-div:before {
+	bottom: 100%;
+	left: 85%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+
+
+@media (min-width: 990px) {
+       .arrow-div:after {
+    	border-color: rgba(241, 241, 241, 0);
+    	border-width: 20px;
+    	margin-left: -20px;
+    }
+    .arrow-div:before {
+    	border-color: rgba(221, 221, 221, 0);
+    	border-bottom-color: white;
+    	border-width: 27px;
+    	margin-left: -27px;
+    } 
+}
+
+
 @media (max-width: 990px) {
+    .login form input{
+        width: 300px;
+    }
 	.menu ul li a{
         padding: 5px 15px 5px 15px;  
+    }
+    .arrow-div {
+        left: 0;
+        border: 2px solid black;
     }
 }
 @media (max-width: 900px) {
     .menu ul li a{
-        padding: 5px 5px 5px 5px;  
+        padding: 5px 5px 5px 5px;   
     }
 }
 @media (max-width: 767px) {
@@ -107,5 +297,36 @@ body{
     .logo{
         font-size: 30px;
         margin-top: 0px;
+    }  
+    .errorMessage{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .arrow-div{
+        width: 100%;
+    }
+    .login_close{
+        font-size: 25px;
+        margin-top: -7px;
+    }
+    .login_main{
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .login form input{
+        width: 80%;
+    }
+    .login form input[type="submit"]{
+        width: 105px;
+    }
+    .arrow-div .reg{
+        font-size: 15px;
+        font-weight: bold;
     }
 }
